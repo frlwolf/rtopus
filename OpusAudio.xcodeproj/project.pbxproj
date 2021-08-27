@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E90E0AB3215991A16A67FA7 /* OPAOpusEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E90E5AAC565AE5B1061C167 /* OPAOpusEncoder.m */; };
+		1E90E1429CA05857798B9DF5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90EE21A206721564DCCE92 /* Coordinator.swift */; };
+		1E90E31A8EC3D0496412E44B /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90EBEF910DE02E7713EF36 /* State.swift */; };
+		1E90E3BBF263747C1C1140A8 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90E442DE17E0A0B3F8B051 /* View.swift */; };
+		1E90E789231BCF9456219CCD /* OPUMicServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E90E3A5E248905D91E57BC7 /* OPUMicServer.m */; };
+		1E90EA8CD48812E63808FA36 /* AudioRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90E04B6BD75814AB2C7048 /* AudioRelay.swift */; };
+		1E90EB9118B24B015471FEDE /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90E3B96A344C57A9CDBD65 /* Interactor.swift */; };
+		1E90ECEE6B1CE888AA2610BD /* OPAOpusDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E90E5FF1B5CD7C5FA008E44 /* OPAOpusDecoder.m */; };
+		1E90EEB85116090D9A63A972 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90EBEF0DC4F1DA77F72B7F /* Window.swift */; };
 		27E400BB26D668E500C3226C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E400BA26D668E500C3226C /* AppDelegate.swift */; };
 		27E400BD26D668E500C3226C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E400BC26D668E500C3226C /* SceneDelegate.swift */; };
 		27E400BF26D668E500C3226C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E400BE26D668E500C3226C /* ViewController.swift */; };
-		27E400C226D668E500C3226C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E400C026D668E500C3226C /* Main.storyboard */; };
 		27E400C426D668E800C3226C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E400C326D668E800C3226C /* Assets.xcassets */; };
 		27E400C726D668E800C3226C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E400C526D668E800C3226C /* LaunchScreen.storyboard */; };
 		27E400D226D668E800C3226C /* OpusAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E400D126D668E800C3226C /* OpusAudioTests.swift */; };
 		27E400DD26D668E800C3226C /* OpusAudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E400DC26D668E800C3226C /* OpusAudioUITests.swift */; };
+		52A7DD890D19F44D9A5D92A3 /* Pods_OpusAudio_OpusAudioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8048961AAAF8EFC6F48F2AA9 /* Pods_OpusAudio_OpusAudioUITests.framework */; };
+		AA2E68250F4DAE18063E58F0 /* Pods_OpusAudioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551C4B81B7FCE87E7BBE48E /* Pods_OpusAudioTests.framework */; };
+		C05C5D71F4002925CED96136 /* Pods_OpusAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D1C183A6A7671860957270 /* Pods_OpusAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +46,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E90E04B6BD75814AB2C7048 /* AudioRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRelay.swift; sourceTree = "<group>"; };
+		1E90E3A5E248905D91E57BC7 /* OPUMicServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPUMicServer.m; sourceTree = "<group>"; };
+		1E90E3B96A344C57A9CDBD65 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		1E90E442DE17E0A0B3F8B051 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		1E90E4ADA777D1144BB34179 /* OPAOpusDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPAOpusDecoder.h; sourceTree = "<group>"; };
+		1E90E5AAC565AE5B1061C167 /* OPAOpusEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPAOpusEncoder.m; sourceTree = "<group>"; };
+		1E90E5F41694872688459188 /* OPAOpusEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPAOpusEncoder.h; sourceTree = "<group>"; };
+		1E90E5FF1B5CD7C5FA008E44 /* OPAOpusDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPAOpusDecoder.m; sourceTree = "<group>"; };
+		1E90EBEF0DC4F1DA77F72B7F /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		1E90EBEF910DE02E7713EF36 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		1E90ECC65C5D935B35C03B83 /* OPUMicServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPUMicServer.h; sourceTree = "<group>"; };
+		1E90EE21A206721564DCCE92 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1E90EEC5516699E79D372E21 /* OPAEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPAEncoder.h; sourceTree = "<group>"; };
+		24A3777A9B9251CC01BE811E /* Pods-OpusAudioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpusAudioTests.release.xcconfig"; path = "Target Support Files/Pods-OpusAudioTests/Pods-OpusAudioTests.release.xcconfig"; sourceTree = "<group>"; };
 		27E400B726D668E500C3226C /* OpusAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E400BA26D668E500C3226C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E400BC26D668E500C3226C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		27E400BE26D668E500C3226C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27E400C126D668E500C3226C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27E400C326D668E800C3226C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E400C626D668E800C3226C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E400C826D668E800C3226C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +73,15 @@
 		27E400D826D668E800C3226C /* OpusAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E400DC26D668E800C3226C /* OpusAudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusAudioUITests.swift; sourceTree = "<group>"; };
 		27E400DE26D668E800C3226C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E400EA26D6727C00C3226C /* OpusAudio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpusAudio-Bridging-Header.h"; sourceTree = "<group>"; };
+		29558B611F8BDA413E45BA72 /* Pods-OpusAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpusAudio.debug.xcconfig"; path = "Target Support Files/Pods-OpusAudio/Pods-OpusAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		4551C4B81B7FCE87E7BBE48E /* Pods_OpusAudioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpusAudioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D917DFD34656607A3EB29C /* Pods-OpusAudio-OpusAudioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpusAudio-OpusAudioUITests.release.xcconfig"; path = "Target Support Files/Pods-OpusAudio-OpusAudioUITests/Pods-OpusAudio-OpusAudioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A9DF888E78303B077B8DFF6 /* Pods-OpusAudio-OpusAudioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpusAudio-OpusAudioUITests.debug.xcconfig"; path = "Target Support Files/Pods-OpusAudio-OpusAudioUITests/Pods-OpusAudio-OpusAudioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8048961AAAF8EFC6F48F2AA9 /* Pods_OpusAudio_OpusAudioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpusAudio_OpusAudioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923C5C915E228524DBBE9B5D /* Pods-OpusAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpusAudio.release.xcconfig"; path = "Target Support Files/Pods-OpusAudio/Pods-OpusAudio.release.xcconfig"; sourceTree = "<group>"; };
+		AC80902D9A8B57AC56F90AC2 /* Pods-OpusAudioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpusAudioTests.debug.xcconfig"; path = "Target Support Files/Pods-OpusAudioTests/Pods-OpusAudioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3D1C183A6A7671860957270 /* Pods_OpusAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpusAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05C5D71F4002925CED96136 /* Pods_OpusAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2E68250F4DAE18063E58F0 /* Pods_OpusAudioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +105,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A7DD890D19F44D9A5D92A3 /* Pods_OpusAudio_OpusAudioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FB1E0975BCBF93646CE7B7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29558B611F8BDA413E45BA72 /* Pods-OpusAudio.debug.xcconfig */,
+				923C5C915E228524DBBE9B5D /* Pods-OpusAudio.release.xcconfig */,
+				5A9DF888E78303B077B8DFF6 /* Pods-OpusAudio-OpusAudioUITests.debug.xcconfig */,
+				54D917DFD34656607A3EB29C /* Pods-OpusAudio-OpusAudioUITests.release.xcconfig */,
+				AC80902D9A8B57AC56F90AC2 /* Pods-OpusAudioTests.debug.xcconfig */,
+				24A3777A9B9251CC01BE811E /* Pods-OpusAudioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1E90EF97E543AF5BD48ACE80 /* Aux Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1E90E442DE17E0A0B3F8B051 /* View.swift */,
+				1E90EBEF0DC4F1DA77F72B7F /* Window.swift */,
+			);
+			path = "Aux Protocols";
+			sourceTree = "<group>";
+		};
 		27E400AE26D668E500C3226C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				27E400D026D668E800C3226C /* OpusAudioTests */,
 				27E400DB26D668E800C3226C /* OpusAudioUITests */,
 				27E400B826D668E500C3226C /* Products */,
+				0FB1E0975BCBF93646CE7B7A /* Pods */,
+				F8E2D113951BADB6C4437229 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +162,22 @@
 				27E400BA26D668E500C3226C /* AppDelegate.swift */,
 				27E400BC26D668E500C3226C /* SceneDelegate.swift */,
 				27E400BE26D668E500C3226C /* ViewController.swift */,
-				27E400C026D668E500C3226C /* Main.storyboard */,
 				27E400C326D668E800C3226C /* Assets.xcassets */,
 				27E400C526D668E800C3226C /* LaunchScreen.storyboard */,
 				27E400C826D668E800C3226C /* Info.plist */,
+				27E400EA26D6727C00C3226C /* OpusAudio-Bridging-Header.h */,
+				1E90E3A5E248905D91E57BC7 /* OPUMicServer.m */,
+				1E90ECC65C5D935B35C03B83 /* OPUMicServer.h */,
+				1E90EE21A206721564DCCE92 /* Coordinator.swift */,
+				1E90EF97E543AF5BD48ACE80 /* Aux Protocols */,
+				1E90E5AAC565AE5B1061C167 /* OPAOpusEncoder.m */,
+				1E90E5F41694872688459188 /* OPAOpusEncoder.h */,
+				1E90E3B96A344C57A9CDBD65 /* Interactor.swift */,
+				1E90EBEF910DE02E7713EF36 /* State.swift */,
+				1E90EEC5516699E79D372E21 /* OPAEncoder.h */,
+				1E90E04B6BD75814AB2C7048 /* AudioRelay.swift */,
+				1E90E5FF1B5CD7C5FA008E44 /* OPAOpusDecoder.m */,
+				1E90E4ADA777D1144BB34179 /* OPAOpusDecoder.h */,
 			);
 			path = OpusAudio;
 			sourceTree = "<group>";
@@ -128,6 +200,16 @@
 			path = OpusAudioUITests;
 			sourceTree = "<group>";
 		};
+		F8E2D113951BADB6C4437229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3D1C183A6A7671860957270 /* Pods_OpusAudio.framework */,
+				8048961AAAF8EFC6F48F2AA9 /* Pods_OpusAudio_OpusAudioUITests.framework */,
+				4551C4B81B7FCE87E7BBE48E /* Pods_OpusAudioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E400E126D668E800C3226C /* Build configuration list for PBXNativeTarget "OpusAudio" */;
 			buildPhases = (
+				3F53607BD89D8AE44C8B032E /* [CP] Check Pods Manifest.lock */,
 				27E400B326D668E500C3226C /* Sources */,
 				27E400B426D668E500C3226C /* Frameworks */,
 				27E400B526D668E500C3226C /* Resources */,
+				639447D3B6A8796D7F2044B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E400E426D668E800C3226C /* Build configuration list for PBXNativeTarget "OpusAudioTests" */;
 			buildPhases = (
+				05CF911FD66A2A55C69FD7B4 /* [CP] Check Pods Manifest.lock */,
 				27E400C926D668E800C3226C /* Sources */,
 				27E400CA26D668E800C3226C /* Frameworks */,
 				27E400CB26D668E800C3226C /* Resources */,
@@ -170,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E400E726D668E800C3226C /* Build configuration list for PBXNativeTarget "OpusAudioUITests" */;
 			buildPhases = (
+				CBB6FAF65F099A823A3E7979 /* [CP] Check Pods Manifest.lock */,
 				27E400D426D668E800C3226C /* Sources */,
 				27E400D526D668E800C3226C /* Frameworks */,
 				27E400D626D668E800C3226C /* Resources */,
+				A872455A30631A31B9474EFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +282,7 @@
 				TargetAttributes = {
 					27E400B626D668E500C3226C = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					27E400CC26D668E800C3226C = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -233,7 +321,6 @@
 			files = (
 				27E400C726D668E800C3226C /* LaunchScreen.storyboard in Resources */,
 				27E400C426D668E800C3226C /* Assets.xcassets in Resources */,
-				27E400C226D668E500C3226C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +340,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05CF911FD66A2A55C69FD7B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpusAudioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F53607BD89D8AE44C8B032E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpusAudio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		639447D3B6A8796D7F2044B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpusAudio/Pods-OpusAudio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpusAudio/Pods-OpusAudio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpusAudio/Pods-OpusAudio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A872455A30631A31B9474EFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpusAudio-OpusAudioUITests/Pods-OpusAudio-OpusAudioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpusAudio-OpusAudioUITests/Pods-OpusAudio-OpusAudioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpusAudio-OpusAudioUITests/Pods-OpusAudio-OpusAudioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB6FAF65F099A823A3E7979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpusAudio-OpusAudioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27E400B326D668E500C3226C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +451,15 @@
 				27E400BF26D668E500C3226C /* ViewController.swift in Sources */,
 				27E400BB26D668E500C3226C /* AppDelegate.swift in Sources */,
 				27E400BD26D668E500C3226C /* SceneDelegate.swift in Sources */,
+				1E90E789231BCF9456219CCD /* OPUMicServer.m in Sources */,
+				1E90E1429CA05857798B9DF5 /* Coordinator.swift in Sources */,
+				1E90E3BBF263747C1C1140A8 /* View.swift in Sources */,
+				1E90EEB85116090D9A63A972 /* Window.swift in Sources */,
+				1E90E0AB3215991A16A67FA7 /* OPAOpusEncoder.m in Sources */,
+				1E90EB9118B24B015471FEDE /* Interactor.swift in Sources */,
+				1E90E31A8EC3D0496412E44B /* State.swift in Sources */,
+				1E90EA8CD48812E63808FA36 /* AudioRelay.swift in Sources */,
+				1E90ECEE6B1CE888AA2610BD /* OPAOpusDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +495,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		27E400C026D668E500C3226C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27E400C126D668E500C3226C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		27E400C526D668E800C3226C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,9 +624,11 @@
 		};
 		27E400E226D668E800C3226C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29558B611F8BDA413E45BA72 /* Pods-OpusAudio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47LVS8UB5Q;
 				INFOPLIST_FILE = OpusAudio/Info.plist;
@@ -445,6 +638,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.premiersoft.lobo.OpusAudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpusAudio/OpusAudio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,9 +647,11 @@
 		};
 		27E400E326D668E800C3226C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923C5C915E228524DBBE9B5D /* Pods-OpusAudio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47LVS8UB5Q;
 				INFOPLIST_FILE = OpusAudio/Info.plist;
@@ -464,6 +661,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.premiersoft.lobo.OpusAudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpusAudio/OpusAudio-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +669,7 @@
 		};
 		27E400E526D668E800C3226C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC80902D9A8B57AC56F90AC2 /* Pods-OpusAudioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +692,7 @@
 		};
 		27E400E626D668E800C3226C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A3777A9B9251CC01BE811E /* Pods-OpusAudioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +715,7 @@
 		};
 		27E400E826D668E800C3226C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9DF888E78303B077B8DFF6 /* Pods-OpusAudio-OpusAudioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +736,7 @@
 		};
 		27E400E926D668E800C3226C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D917DFD34656607A3EB29C /* Pods-OpusAudio-OpusAudioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

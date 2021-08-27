@@ -5,6 +5,8 @@ target 'OpusAudio' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  pod 'libopus'
+
   # Pods for OpusAudio
 
   target 'OpusAudioTests' do
