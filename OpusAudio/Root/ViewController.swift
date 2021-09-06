@@ -56,14 +56,17 @@ class ViewController: UIViewController {
 
         useCase.startRecording()
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) { [useCase] in
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) { [useCase, state] in
             useCase.stop()
+
+            print(state.recorded.count)
+            print(state.recorded)
         }
     }
 
     @objc
     private func didTapPlayback(sender: UIButton) {
-        useCase.playback(track: state.data)
+        useCase.playback(opusChunks: state.recorded)
     }
 
     private func setupSubviews() {

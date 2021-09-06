@@ -7,7 +7,8 @@ import Foundation
 final class Coordinator {
 
     func start(window: Window) {
-        let audioRelay = AudioRelay<OPAOpusEncoder>()
+        let opusEncoder = Opus.Encoder()
+        let audioRelay = AudioRelay(encoder: opusEncoder)
         let state = State()
         let useCase = Interactor(adapter: state, audioRelay: audioRelay)
 

@@ -19,7 +19,7 @@ final class State {
 
     var isRecording: Bool = false
 
-    var data: Data = Data()
+    var recorded: [Data] = []
 
 }
 
@@ -34,6 +34,6 @@ extension State: StateAdapter {
     }
 
     func didReceiveAudioDataChunk(data: Data) {
-        self.data.append(data)
+        recorded.append(data)
     }
 }
