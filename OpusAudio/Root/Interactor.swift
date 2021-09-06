@@ -52,8 +52,10 @@ extension Interactor: UseCase {
     func playback(opusChunks: [Data]) {
         wavBuilder.reset(to: Opus.defaultFormat())
 
+        // It is important to maintain the same decoder instance while decoding all packets
+        let decoder = Opus.Decoder()
+
         for chunk in opusChunks {
-            let decoder = Opus.Decoder()
             let pcmBuffer = decoder.decodedBuffer(from: chunk)
 
             wavBuilder.appendChunk(with: pcmBuffer)
